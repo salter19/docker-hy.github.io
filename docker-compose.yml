@@ -5,7 +5,7 @@ services:
         image: devopsdockeruh/coursepage
         ports: 
             - 4000:80
-        container_name: coursematerial
+        container_name: course_material
     watchtower:
         image: containrrr/watchtower
         environment: 
